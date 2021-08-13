@@ -1,0 +1,9 @@
+@media screen and (min-width: 375px) {
+    .main .search .title {
+        font-size: 55px;
+    }
+
+    .main .search .input {
+        max-width: 100%;
+    }
+}
