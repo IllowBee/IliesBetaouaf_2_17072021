@@ -1,11 +1,389 @@
-/*
-@media screen (min-width: 375px) {
+
+@media screen and (max-width: 1023px) {
+
+
+
+    .navigation-container .navigation .subscription {
+        
+        position: relative;
+    }
+
+
+    
+    .header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .header .logo-container {
+        padding-left: 50px;
+    }
+    
+    .header .logo-container .logo {
+        width: 200px;
+    }
+
+    .navigation-container .navigation .actif {
+        border-top: none;
+        border-bottom: solid 4px #0065FC;
+        color: #0065FC;
+    }
+
+    .navigation-container .navigation .inactif {
+        
+        border-bottom: solid 4px #d9d9d9;
+        
+    }
+
+
+
+
+    
+    .main {
+        padding: 0;
+        width: 100%;
+    }
+    .main .search{
+        padding-left: 30px;
+        
+    }
+
+    .navigation-container .navigation a {
+        font-size: 40px ;
+    }
+
+    .navigation-container .navigation {
+        width: 100%;
+    }
+
     .main .search .title {
         font-size: 55px;
+     
     }
 
     .main .search .input {
         max-width: 100%;
+        box-shadow: inset 0px 0px 0px 3.5px #F2F2F2;
+        border-radius: 40px;
     }
+
+    .main .search .input .input-field{
+        display: flex ;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .main .search .input .input-field::placeholder {
+        padding: 30px;
+        font-size: 50px;
+        color: black;
+        display: flex ;
+        align-items: center;
+
+    }
+
+    .main .search .search-info .search-info-text {
+        font-size: 40px;
+        padding-top: 10px;
+    }
+
+    .main .search .search-info .search-info-icon {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .main .search .input .input-button{
+        border-radius: 40px;
+        color: white;
+    }
+        
+    .main .search .input .input-button .input-button-text{
+        display: none;
+    }
+
+    .main .search .input .input-button .input-icon{
+        display: block;
+        background-color: #0065FC ;
+        
+    }
+
+    .main .search .input .input-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+    }
+
+    .main .search .input .geo-icon-container{ 
+        padding: 30px 48px;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+
+    }
+
+    .main .results .results-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .main .search .filters {
+        flex-wrap: wrap;
+    }
+
+    .main .search .filters .item {
+        
+        margin: 10px 20px;
+        
+    }
+    
+    .main .search .filters .item .item-link .icon-wrapper {
+       
+        font-size: 40px;
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .main .search .filters-container .main-label{
+        font-size: 40px;
+        float: none;
+        padding: 0 0 20px 20px ;
+
+    }
+
+    .main .search .filters .item .item-link .label {
+            
+        font-size: 40px;
+            
+    }
+
+    
+    .main .search .filters .item {
+        
+        box-shadow: inset 0px 0px 0px 3.5px #d9d9d9;
+
+    }
+
+    .main .results .results-container .popular-articles-wrapper {
+      
+    }
+    
+
+    .main .results .results-container .popular-articles-wrapper .title-wrapper .title {
+        font-size: 50px;
+    }
+
+    .main .results .results-container .popular-articles-wrapper .title-wrapper .icon-wrapper .icon {
+        font-size: 50px;
+        align-self: center;
+    }
+
+    .main .results .results-container .popular-articles-wrapper .popular-articles .item .item-info {
+        font-size: 35px;
+        padding: 20px 40px;
+    }
+    .main .results .results-container .popular-articles-wrapper .popular-articles .item .item-info .label {
+        font-size: 35px;
+    }
+
+    .main .results .results-container .popular-articles-wrapper .popular-articles .item .image-wrapper .image {
+        
+        max-height: 100%;
+        height: 300px;
+        width:  300px;
+        object-fit: cover;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+      
+    .main .results .results-container .popular-articles-wrapper .popular-articles .item {
+       width: 100%;
+       padding: 10px;
+       border-radius: 40px;
+        
+    }   
+
+    .main .results .results-container .popular-articles-wrapper .popular-articles .item .image-wrapper {
+        margin: 0;
+        padding: 0;
+        width: 30%;
+        height: 100%;
+        max-height: 100%;
+
+        
+        
+    }
+    .main .results .results-container .popular-articles-wrapper {
+        width: 100%;
+        border-radius: 0px;
+        padding: 50px;
+        margin: 20px 0;
+           
+
+    }
+        
+     .main .results .results-container .popular-articles-wrapper .title-wrapper .icon-wrapper {
+            display: flex;
+            padding-right: 50px;
+    }
+
+    .main .results .results-container .articles-wrapper {
+        width: 100%;
+        border-radius: 0;
+        padding: 50px;
+        margin: 20px 0;
+        background-color: white;
+    }
+    
+    .main .results .results-container .articles-wrapper .articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .main .results .results-container .articles-wrapper .articles .item {
+        background-color: white;
+        width: 100%;
+        height: 90%;
+        min-width: 100%;
+        border-radius: 40px;
+        padding: 10px;
+        margin: 20px 10px;
+    }
+
+
+    .main .results .results-container .articles-wrapper .articles .item .image-wrapper {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 300px;
+        max-height: 100%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        
+       
+    }
+
+    .main .results .results-container .articles-wrapper .articles .item .image-wrapper .image {
+        width: 100%;
+        max-height: 100%;
+        min-height: 300px;
+        object-fit: cover;
+    }
+    
+    .main .results .results-container .item .item-info {
+        font-size: 35px;
+        padding: 20px;
+
+    }
+
+    .main .results .results-container .item .item-info .label {
+            font-size: 35px;
+    }
+
+    .main .results .results-container .articles-wrapper 
+     .title {
+        font-size: 60px;
+    }
+
+    .main .results .results-container .show-more {
+        
+        padding-top: 60px;
+        font-size: 40px;
+    }
+
+    .main .activity .title{
+        margin-left: 50px;
+        font-size: 50px;
+    }
+
+
+    
+    .main .activity .locations .location-wrapper .location .image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+       
+    }
+
+    .main .activity .locations {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 50px;
+        
+    }
+
+    .main .activity .locations .location-wrapper {
+        display: flex;
+        flex-direction: column;
+       
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    
+    .main .activity .locations .location-wrapper .location .image {
+        width: 100%;
+        object-fit: cover;
+        height: 300px;
+        display: block;
+    }
+
+    .main .activity .locations .location-wrapper .location .label {
+        font-size: 40px;
+        padding: 20px;
+        padding-bottom: 20px;
+    }
+
+    
+    .footer
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        padding: 50px;
+       
+  
+  
+
+    }
+    .footer-container
+    {
+        flex-direction: column;
+    }
+    .footer-about h2, .footer-host h2, .footer-help h2{
+    
+        font-family: "RalewayBold" ;
+        font-size: 50px;
+    }
+
+    .footer-about p, .footer-host p, .footer-help p{
+        font-size: 40px;
+    }
+    
 }
-*/
+        
+    
+
+
+
+@media screen and (min-width: 601px) {
+
+    .main .search .subtitle {
+        font-size: 40px;
+    }
+
+
+}
+    
+
+
+
