@@ -6,6 +6,7 @@
     .navigation-container .navigation .subscription {
         
         position: relative;
+        display: none;
     }
 
 
@@ -14,15 +15,26 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        padding: 0;
+        padding: 40px 0;
+
     }
 
+    .header .logo-container .subscription-hidden-link {
+        display: flex;
+        font-size: 45px;
+        color:#0065FC;
+        align-self: center;
+        
+    }
     .header .logo-container {
         padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 40px;
     }
     
     .header .logo-container .logo {
-        width: 200px;
+        width: 300px;
+        
     }
 
     .navigation-container .navigation .actif {
@@ -37,13 +49,20 @@
         
     }
 
+    .navigation-container .navigation{
+        justify-content: space-around;
+    }
 
-
+    .navigation-container .navigation-item{
+        width: 470px;
+        text-align: center;
+    }
 
     
     .main {
         padding: 0;
-        width: 100%;
+        width: 1020px;
+        
     }
     .main .search{
         padding-left: 30px;
@@ -51,7 +70,7 @@
     }
 
     .navigation-container .navigation a {
-        font-size: 40px ;
+        font-size: 45px ;
     }
 
     .navigation-container .navigation {
@@ -60,6 +79,11 @@
 
     .main .search .title {
         font-size: 55px;
+     
+    }
+
+    .main .search .subtitle {
+        font-size: 30px;
      
     }
 
@@ -73,6 +97,7 @@
         display: flex ;
         align-items: center;
         justify-content: center;
+        
 
 
     }
@@ -144,7 +169,7 @@
     .main .search .filters .item .item-link .icon-wrapper {
        
         font-size: 40px;
-        width: 100px;
+        min-width: 100px;
         height: 100px;
 
     }
@@ -169,6 +194,7 @@
 
     }
     
+
     .main .results .results-container .popular-articles-wrapper .title-wrapper .title {
         font-size: 50px;
     }
@@ -189,16 +215,16 @@
     .main .results .results-container .popular-articles-wrapper .popular-articles .item .image-wrapper .image {
         
         max-height: 100%;
-        height: 300px;
+        height: 290px;
         width:  300px;
         object-fit: cover;
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
-        margin-left: 10px;
+        
     }
       
     .main .results .results-container .popular-articles-wrapper .popular-articles .item {
-       width: 100%;
+       width: 980px;
        margin: 40px 0;
        border-radius: 40px;
        border: 4px white solid;
@@ -219,7 +245,7 @@
     .main .results .results-container .popular-articles-wrapper {
         width: 100%;
         border-radius: 0px;
-        padding: 50px 0;
+        padding: 50px 0 0 30px;
         margin: 20px 0;
            
 
@@ -231,9 +257,9 @@
     }
 
     .main .results .results-container .articles-wrapper {
-        width: 100%;
+        width: 980px;
         border-radius: 0; 
-        padding: 50px 0;
+        padding: 50px 0 0 30px;
         margin: 20px 0;
         background-color: white;
     }
@@ -247,9 +273,9 @@
 
     .main .results .results-container .articles-wrapper .articles .item {
         background-color: white;
-        width: 100%;
+        width: 980px;
         height: 90%;
-        min-width: 100%;
+        min-width:  980px;
         border-radius: 40px;
         
         margin: 20px 0px;
@@ -316,7 +342,7 @@
         justify-content: space-between;
         flex-direction: column;
         padding: 50px;
-        
+        height: 100%;
     }
 
     .main .activity .locations .location-wrapper {

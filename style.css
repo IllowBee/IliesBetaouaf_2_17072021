@@ -58,6 +58,11 @@ ul {
     justify-content: space-between;
 }
 
+.header .logo-container .subscription-hidden-link {
+    display: none;
+}
+
+
 .navigation-container .navigation {
     display: flex;
 }
@@ -387,7 +392,6 @@ ul {
 .main .activity .locations {
     display: flex;
     justify-content: space-between;
-    max-height: 450px;
     height: 450px;
 }
 
