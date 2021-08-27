@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
 
 
 
@@ -168,12 +168,7 @@
         box-shadow: inset 0px 0px 0px 3.5px #d9d9d9;
 
     }
-
-    .main .results .results-container .popular-articles-wrapper {
-      
-    }
     
-
     .main .results .results-container .popular-articles-wrapper .title-wrapper .title {
         font-size: 50px;
     }
@@ -199,12 +194,15 @@
         object-fit: cover;
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
+        margin-left: 10px;
     }
       
     .main .results .results-container .popular-articles-wrapper .popular-articles .item {
        width: 100%;
-       padding: 10px;
+       margin: 40px 0;
        border-radius: 40px;
+       border: 4px white solid;
+       padding: 0px;
         
     }   
 
@@ -221,7 +219,7 @@
     .main .results .results-container .popular-articles-wrapper {
         width: 100%;
         border-radius: 0px;
-        padding: 50px;
+        padding: 50px 0;
         margin: 20px 0;
            
 
@@ -234,8 +232,8 @@
 
     .main .results .results-container .articles-wrapper {
         width: 100%;
-        border-radius: 0;
-        padding: 50px;
+        border-radius: 0; 
+        padding: 50px 0;
         margin: 20px 0;
         background-color: white;
     }
@@ -253,8 +251,8 @@
         height: 90%;
         min-width: 100%;
         border-radius: 40px;
-        padding: 10px;
-        margin: 20px 10px;
+        
+        margin: 20px 0px;
     }
 
 
@@ -275,6 +273,7 @@
         max-height: 100%;
         min-height: 300px;
         object-fit: cover;
+
     }
     
     .main .results .results-container .item .item-info {
@@ -368,22 +367,5 @@
     .footer-about p, .footer-host p, .footer-help p{
         font-size: 40px;
     }
-    
-}
-        
-    
-
-
-
-@media screen and (min-width: 601px) {
-
-    .main .search .subtitle {
-        font-size: 40px;
-    }
-
 
 }
-    
-
-
-
