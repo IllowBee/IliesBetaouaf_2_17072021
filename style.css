@@ -9,7 +9,7 @@
     font-family: "RalewayBold" ;
     src: url('fonts/Raleway-Bold.ttf');
     font-weight: Bold;
-    font-style: Bold;
+    font-style: normal;
   }
   
   .bold {
@@ -255,7 +255,7 @@
   
   .main .results .results-container .articles-wrapper .articles .title {
       padding: 0;
-      margin: 0 0 50px 0 0;
+      margin: 0 0 50px 0;
   }
   
   .main .results .results-container .articles-wrapper .articles .item {
@@ -343,7 +343,7 @@
   
   .main .results .results-container .popular-articles-wrapper .title-wrapper .title {
       padding: 0;
-      margin: 0 0 50px 0 0;
+      margin: 0 0 50px 0;
   }
   
   
